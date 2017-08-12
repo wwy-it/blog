@@ -1,0 +1,86 @@
+html,
+body {
+    color: rgb(125, 125, 125);
+}
+
+a {
+    color: rgb(125, 125, 125);
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+    color: rgb(125, 125, 125);
+}
+
+.img {
+    width: 130px;
+    height: 130px;
+    margin: 10px auto 0px;
+    border-radius: 50%;
+    background-image: url(../images/boy.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+    font-size: 18px;
+    font-family: "楷体";
+}
+
+main {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+aside {
+    margin: 18px auto;
+    width: 249px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "楷体";
+    text-align: left;
+}
+
+article {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+section {
+    line-height: 35px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+section:hover {
+    color: red;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer {
+    width: 200px;
+    height: 60px;
+}
+
+.me {
+    display: inline-block;
+    width: 100px;
+    margin: 0px auto;
+}
+
+.it {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
