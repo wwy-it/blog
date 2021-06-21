@@ -10,7 +10,7 @@ const app = express();
 
 
 var keyPath = '../../etc/nginx/cert/5829799_aiq.group.key';
-var certPath = '../../5829799_aiq.group.pem';
+var certPath = '../../etc/nginx/cert/5829799_aiq.group.pem';
 var hskey = fs.readFileSync(keyPath);
 var hscert = fs.readFileSync(certPath);
 
